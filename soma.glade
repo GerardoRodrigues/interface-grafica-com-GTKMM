@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated with glade 3.40.0 -->
+<interface>
+  <requires lib="gtk+" version="3.24"/>
+  <object class="GtkWindow" id="window">
+    <property name="name">window</property>
+    <property name="width-request">300</property>
+    <property name="height-request">300</property>
+    <property name="can-focus">False</property>
+    <property name="title" translatable="yes">Soma </property>
+    <child>
+      <object class="GtkFixed">
+        <property name="visible">True</property>
+        <property name="can-focus">False</property>
+        <child>
+          <object class="GtkLabel" id="label_title">
+            <property name="name">label_title</property>
+            <property name="width-request">100</property>
+            <property name="height-request">80</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">SOMA</property>
+          </object>
+          <packing>
+            <property name="x">88</property>
+            <property name="y">13</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkEntry" id="num1">
+            <property name="name">num1</property>
+            <property name="width-request">80</property>
+            <property name="height-request">34</property>
+            <property name="visible">True</property>
+            <property name="can-focus">True</property>
+            <property name="has-focus">True</property>
+            <property name="is-focus">True</property>
+            <property name="can-default">True</property>
+            <property name="has-default">True</property>
+            <property name="max-length">4</property>
+            <property name="width-chars">4</property>
+            <property name="input-purpose">digits</property>
+          </object>
+          <packing>
+            <property name="x">14</property>
+            <property name="y">99</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="lable_mais">
+            <property name="name">lable_mais</property>
+            <property name="width-request">50</property>
+            <property name="height-request">20</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">+</property>
+            <property name="width-chars">3</property>
+            <property name="max-width-chars">3</property>
+          </object>
+          <packing>
+            <property name="x">114</property>
+            <property name="y">108</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkEntry" id="num2">
+            <property name="name">num2</property>
+            <property name="width-request">80</property>
+            <property name="height-request">34</property>
+            <property name="visible">True</property>
+            <property name="can-focus">True</property>
+            <property name="is-focus">True</property>
+            <property name="can-default">True</property>
+            <property name="has-default">True</property>
+            <property name="max-length">4</property>
+            <property name="width-chars">4</property>
+            <property name="input-purpose">digits</property>
+          </object>
+          <packing>
+            <property name="x">184</property>
+            <property name="y">99</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkEntry" id="result">
+            <property name="name">result</property>
+            <property name="width-request">90</property>
+            <property name="height-request">50</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="max-length">4</property>
+            <property name="width-chars">4</property>
+            <property name="input-purpose">digits</property>
+          </object>
+          <packing>
+            <property name="x">93</property>
+            <property name="y">225</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="btn_soma">
+            <property name="label" translatable="yes">RESULTADO</property>
+            <property name="name">btn_soma</property>
+            <property name="width-request">96</property>
+            <property name="height-request">27</property>
+            <property name="visible">True</property>
+            <property name="can-focus">True</property>
+            <property name="receives-default">True</property>
+            <signal name="clicked" handler="on_btn_soma_clicked" swapped="no"/>
+          </object>
+          <packing>
+            <property name="x">91</property>
+            <property name="y">163</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>
